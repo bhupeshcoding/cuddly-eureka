@@ -1,0 +1,155 @@
+/* header.module.css
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #0b0c10, #1f1f2e);
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #f3f3f3;
+  text-shadow: 0 0 20px rgba(0, 0, 255, 0.8), 0 0 30px rgba(0, 0, 255, 0.8);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin: 0 15px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navItem:hover {
+  color: #00b0ff;
+  transform: scale(1.1);
+}
+
+.navItem:active {
+  color: #007bb5;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .navList {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navItem {
+    font-size: 1.2rem;
+  }
+} */
+
+/* header.module.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #374151;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin: 0 20px;
+  font-size: 1.1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: #e5e7eb;
+  transition: all 0.3s ease;
+}
+
+.navItem:hover {
+  color: #4ade80;
+  transform: translateY(-2px);
+}
+
+.navItem:active {
+  color: #10b981;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .navList {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navItem {
+    font-size: 1.2rem;
+  }
+}

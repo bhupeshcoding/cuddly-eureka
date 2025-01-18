@@ -1,0 +1,79 @@
+.sticky-notes-container {
+  width: 90%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.new-note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.sticky-note {
+  background-color: #fffca3;
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #e6e600;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sticky-note p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+  word-wrap: break-word;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-actions button {
+  font-size: 12px;
+  padding: 5px;
+}
